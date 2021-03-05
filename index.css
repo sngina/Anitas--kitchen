@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    background-image:url(./assets/backgrounds/landing.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+      width: 100%;
+      box-sizing: border-box;
+      height: 400px;
+
+}
+#Menu{
+    text-align: center;
+}
+.text1{
+    text-align: center;
+}
+.text1>p{
+    font-size :20px;
+    color: white;
+}
+.text1>p:last-child{ 
+    font-weight: 700;
+
+}
+#design{
+    display:flex;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+  
+}
+#Breakfast{
+    background-image: url(./assets/foodtop/breakfast.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 40%;
+     height: 300px;
+     display: flex;
+     font-size: 24px;
+     color: white;
+     align-items: center;
+     justify-content: center;
+
+}
+#Lunch{
+    background-image: url(./assets/foodtop/lunch.jpg);
+    width: 40%;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+#Dinner{
+    background-image: url(./assets/foodtop/dinner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    width: 40%;
+    display: flex; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+#hour{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+#fastFood{
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    margin:0px auto;
+    
+
+}
