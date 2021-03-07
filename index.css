@@ -30,6 +30,9 @@ body{
     width: 100%;
     height: 300px;
     box-sizing: border-box;
+
+    
+
   
 }
 #Breakfast{
@@ -55,6 +58,7 @@ body{
     color: white;
     align-items: center;
     justify-content: center;
+    opacity: 0.6;
 
 }
 #Dinner{
@@ -76,12 +80,124 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 26px;
+
 }
+#HappyHour,#Partytime{
+    display: flex;
+    height: 50%;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Partytime{
+    background-color: tomato;
+    color: white;
+}
+
 #fastFood{
     display: flex;
     justify-content:space-around;
     width: 80%;
-    margin:0px auto;
+    margin:10px;
     
+
+}
+
+    
+
+#drinks{
+    image-rendering: auto;
+     text-align-last: left;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+#customer-bills{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: baseline;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px black;
+    height: 200px;
+
+
+}
+        
+        
+.image2{
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+     width: 90%;
+     box-sizing: border-box;
+     height: 300px;
+     display: flex;
+     padding: 15%;
+     height: 100%;
+}  
+#rice{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+.image2>div{
+
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+}
+#chicken,#source{
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+
+}
+#source li{
+list-style: none;
+}
+#form{
+background-image: url(./assets/backgrounds/subscribe.jpg);
+text-align: center;
+background-size: cover;
+width:100%;
+padding: 100px;
+}
+#email{
+    font-size: 24px;
+    color: white;
+}
+#button{
+    font-size: 24px;
+    color:tomato
+}
+
+
+ 
+
+.moringa{
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}
+#subscribe{
+    font-size: 25px;
+    color: tomato;
+}
+.photo{
+      background-color: tomato;
+      justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 100%;
 
 }
