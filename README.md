@@ -4,7 +4,7 @@ Author
 STELLA NGINA
 
 Description
-Its a website that expalins more about my fev music band
+Its a website that describes Annitas kitchen.
 
 Prerequisites
 You need to have git installed You can install it with the following command in your terminal $ sudo apt install git-all
